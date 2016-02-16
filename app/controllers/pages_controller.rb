@@ -3,5 +3,7 @@ class PagesController < ApplicationController
   end
   def about
   end
+  def outline
+  end
 
 end
