@@ -2,8 +2,12 @@
 
 $body-bg:                   #ecf0f1;
 $font-family-sans-serif:    'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-inverse-bg:         #f1c40f;
-$navbar-inverse-link-color: #34495e;
+$navbar-bg:                 white;
+$navbar-link-color:         #34495e;
 $brand-primary:             #8e44ad;
 $jumbotron-bg:							#f1c40f;
 @import 'bootstrap';
+
+.center {
+     text-align: center;
+}
