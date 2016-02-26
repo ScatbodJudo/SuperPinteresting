@@ -83,15 +83,9 @@ config.action_mailer.default_url_options = { host: 'https://superpinteresting.he
 
 #configure AWS_SDK (from: http://stackoverflow.com/questions/28825047/aws-sdk-v2-for-s3)
 Aws.config.update(
-  region: 'us-east-1',
-  credentials: Aws::Credentials.new(
-    Figaro.env.s3_access_key_id,
-    Figaro.env.s3_secret_access_key
-  )
+  region: 'us-east-1'
 )
-s3 = Aws::S3::Client.new
-resp = s3.list_buckets
-puts resp.buckets.map(&:name)
+
 
 
 # sets Paperclip to save images to Amazon s3
