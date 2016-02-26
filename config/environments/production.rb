@@ -82,8 +82,7 @@ Rails.application.configure do
 config.action_mailer.default_url_options = { host: 'https://superpinteresting.herokuapp.com/'}
 
 #configure AWS_SDK (from: http://stackoverflow.com/questions/28825047/aws-sdk-v2-for-s3)
-Aws.config[:region]
-ENV['AWS_REGION']
+s3 = Aws::S3::Client.new(region:'us-west-2')
 
 # sets Paperclip to save images to Amazon s3
 config.paperclip_defaults = {
