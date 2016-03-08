@@ -101,6 +101,8 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    masonry-rails (0.2.4)
+      railties
     mime-types (2.99.1)
     mimemagic (0.3.1)
     mini_portile2 (2.0.0)
@@ -188,13 +190,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aws-sdk (~> 2)
+  aws-sdk (~> 2.0)
   bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
   devise (~> 4.0.0.rc1)
   jbuilder (~> 2.0)
   jquery-rails
+  masonry-rails (~> 0.2.0)
   paperclip!
   pg
   rails (= 4.2.5.1)
