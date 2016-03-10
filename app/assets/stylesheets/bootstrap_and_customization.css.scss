@@ -1,9 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 $body-bg:                   #ecf0f1;
 $font-family-sans-serif:    'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-bg:                 white;
-$navbar-link-color:         #34495e;
+$navbar-link-color:         #8e44ad;
 $brand-primary:             #8e44ad;
 $jumbotron-bg:							#f1c40f;
 @import 'bootstrap';
