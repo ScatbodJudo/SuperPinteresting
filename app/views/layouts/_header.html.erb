@@ -10,7 +10,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <a> <%= link_to "SuperPinteresting", root_path, class: "navbar-brand"%> </a>
+          <a> <%= link_to "HOME", pins_path, class: "navbar-brand"%> </a>
 
       
         <!--<a class="navbar-brand" href="#">SuperPinteresting</a> -->
@@ -19,20 +19,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li> <%= link_to "About", about_path %> </li>
-          <li> <%= link_to "Outline", outline_path %> </li>
-
-        <%if user_signed_in? %>
-
-          <li> <%= link_to new_pin_path do %>
-          <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> New Pin
-          <%end%> </li>
-
-          <li> <%= link_to "Account Settings", edit_user_registration_path %> </li>
-          <li> <%= link_to "Log Out", destroy_user_session_path, method: :delete %> </li>
-        <%else%>
-          <li> <%= link_to "Sign In", new_user_session_path %> </li>  
-        <%end%>
+          <li> <%= link_to "ABOUT TODD", about_path %> </li>
 
         </ul>
       </div><!-- /.navbar-collapse -->

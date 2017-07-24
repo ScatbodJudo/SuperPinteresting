@@ -1,16 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif|Oxygen:300);
+
 @import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab);
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 $body-bg:                   #ecf0f1;
-$font-family-sans-serif:    'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+/*$font-family-serif:    'Zilla Slab', serif;*/
 $navbar-bg:                 white;
 $navbar-link-color:         #8e44ad;
 $brand-primary:             #8e44ad;
-$jumbotron-bg:							#f1c40f;
+$jumbotron-bg:							white;
 @import 'bootstrap';
 
 .center {
      text-align: center;
 }
+
+body {
+	font-family: 'Noto Serif', serif;
+}
+
+.primary_font {
+	font-family: 'Oxygen', Sans-Serif;
+}
+
+/*
+.secondary_font {
+	font-family: 'Noto Serif', Serif;
+}
+
+*/
+
+/*
+.css-selector {
+	font-family: 'Roboto Condensed', sans-serif
+}
+
+*/
